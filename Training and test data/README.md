@@ -41,6 +41,6 @@ Next, build the vocabulary and load the dataset:
 SRC.build_vocab(train_data, min_freq = 2)
 TRG.build_vocab(train_data, min_freq = 2)
 
-train_data, valid_data = TabularDataset.splits(path='../data/',train='Training_set.csv',
+train_data, valid_data = TabularDataset.splits(path='../data/',train='Train_set.csv',
     validation='Development_set.csv' , format='csv',
     fields=[('src', SRC), ('trg', TRG)], skip_header=True) 
