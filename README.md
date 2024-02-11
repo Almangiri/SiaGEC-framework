@@ -12,3 +12,5 @@ Regarding load and run the trained models it requires a working installation of 
 - nltk==3.3
   
 The whole files and codes will be released soon!
+
+[![DOI](https://zenodo.org/badge/695729408.svg)](https://zenodo.org/doi/10.5281/zenodo.10646583)
